@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID2</title>
+    <style>
+
+
+    .container
+    {
+        height: 1000px;
+        width: 1000px;
+        background-color: red;
+        border: 3px solid black;
+        display: grid;
+        grid-template-columns: repeat(4,100px);
+        grid-template-rows: repeat(3,100px);
+        gap: 5px;
+        justify-content: center;
+        align-content: center;
+        align-items: end;
+    }
+    
+    .container div
+    {
+        height: 100px;
+        width: 100px;
+        background-color: yellow;
+        border: 3px solid black;
+    
+
+    }
+#a
+ {
+   align-self: flex-start;
+   
+} 
+
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+      <div id="a"></div>
+      <div id="b"></div>
+      <div id="c"></div>
+      <div id="d"></div>
+      <div id="e"></div>
+      <div id="f"></div>
+      <div id="g"></div>
+      <div id="h"></div>
+      <div id="i"></div>
+
+    </div>
+</body>
+</html>
